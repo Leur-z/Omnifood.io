@@ -12,6 +12,9 @@ body {
   color: #555;
   line-height: 1;
 }
+*:focus {
+  outline: none;
+}
 /* ********************************* */
 /* General Components */
 /* ********************************** */
@@ -33,6 +36,9 @@ body {
 }
 .grid--4--cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center--v {
   align-items: center;
@@ -70,6 +76,7 @@ body {
   letter-spacing: 0.75px;
 }
 /* Button Components */
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -102,6 +109,19 @@ body {
 .btn--outline:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
+}
+.btn-form {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #2e1907;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
 }
 strong {
   font-weight: 500;
