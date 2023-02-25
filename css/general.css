@@ -5,16 +5,19 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #555;
   line-height: 1;
+  overflow-x: hidden;
 }
-*:focus {
+/* *:focus {
   outline: none;
-}
+} */
 /* ********************************* */
 /* General Components */
 /* ********************************** */
